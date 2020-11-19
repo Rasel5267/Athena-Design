@@ -9,7 +9,7 @@ import dribble from '../../../Images/dribble.png';
 
 const Footer = () => {
     return (
-        <div className="section">
+        <div className="section footer">
            <Container className="my-3">
                <Row>
                    <Col md={5} className="px-5 footer-icon mb-3">
