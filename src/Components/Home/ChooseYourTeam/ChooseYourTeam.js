@@ -44,14 +44,16 @@ const teamDetails = [
 
 const ChooseYourTeam = () => {
   return (
-    <Container className="mt-5">
-      <h1 className="text-center team-h1 mb-5">CHOOSE YOUR DEDICATED TEAM</h1>
-      <Row>
-        {teamDetails.map((team) => (
-          <TeamDetails team={team} key={team.id} />
-        ))}
-      </Row>
-    </Container>
+    <div className="section pb-5">
+      <Container className="mt-5">
+        <h1 className="text-center team-h1 mb-5">CHOOSE YOUR DEDICATED TEAM</h1>
+        <Row>
+          {teamDetails.map((team) => (
+            <TeamDetails team={team} key={team.id} />
+          ))}
+        </Row>
+      </Container>
+    </div>
   );
 };
 
