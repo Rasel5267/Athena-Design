@@ -44,9 +44,9 @@ const teamDetails = [
 
 const ChooseYourTeam = () => {
   return (
-    <div className="section pb-5">
-      <Container className="mt-5">
-        <h1 className="text-center team-h1 mb-5">CHOOSE YOUR DEDICATED TEAM</h1>
+    <div className="bg-color pb-5">
+      <Container className="pt-2">
+        <h2 className="text-center font-weight-bold team-h1 mb-5">CHOOSE YOUR DEDICATED TEAM</h2>
         <Row>
           {teamDetails.map((team) => (
             <TeamDetails team={team} key={team.id} />
