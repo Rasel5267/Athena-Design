@@ -9,9 +9,9 @@ import rocket from '../../../Images/rocket.png';
 
 const Achievements = () => {
     return (
-        <div className="section">
-            <Container className="my-2">
-                <Row>
+        <div className="bg-color">
+            <Container className="py-2">
+                <Row className="py-4">
                     <Col md={5} className="mt-3">
                         <h2 className="font-weight-bold pt-5">Our Achievements</h2>
                         <p className="mt-3 text-secondary">
