@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, Col, Nav } from "react-bootstrap";
+import { Card, Col, Nav } from "react-bootstrap";
 
 const TeamDetails = ({ team }) => {
   return (
@@ -18,9 +18,7 @@ const TeamDetails = ({ team }) => {
             <Nav.Link eventKey="link-5">{team.li6}</Nav.Link>
             <Nav.Link eventKey="link-6">{team.li7}</Nav.Link>
           </Nav>
-          <Button className="order-btn mt-3" variant="primary">
-            Order Now
-          </Button>
+          <button className="contactBtn order-btn">Order Now</button>
         </Card.Body>
       </Card>
     </Col>
